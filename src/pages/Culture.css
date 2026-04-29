@@ -1,0 +1,498 @@
+.culture {
+  padding: 0 0 4rem 0;
+}
+
+.culture-hero {
+  text-align: center;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+.culture-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.culture-hero p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cultural-elements {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+  text-align: center;
+}
+
+.cultural-elements h2 {
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.elements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.element-card {
+  background-color: var(--card-bg);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  text-align: left;
+}
+
+.element-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.element-content {
+  padding: 1.5rem;
+}
+
+.element-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.element-content p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.highlights-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.regional-diversity {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+  text-align: center;
+}
+.regional-diversity h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+.section-description {
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  color: var(--text-secondary);
+}
+.regions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.region-card {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  text-align: left;
+}
+.region-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.region-content {
+  padding: 1.5rem;
+}
+.dance-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.dance-tag {
+  background: var(--bg-secondary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.core-values {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+  text-align: center;
+}
+.core-values h2 {
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.value-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
+}
+.value-icon {
+  color: var(--accent-primary);
+  margin-bottom: 1rem;
+}
+
+.cultural-preservation {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+}
+.preservation-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.preservation-content h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+.preservation-content p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+.preservation-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.culture-cta {
+  padding: 8rem 0;
+  text-align: center;
+}
+.cta-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.heritage-section {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+}
+
+.heritage-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.heritage-text h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.heritage-text p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.heritage-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: var(--hover-shadow);
+}
+
+.traditions-section {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+}
+
+.traditions-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.traditions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.tradition-card {
+  background-color: var(--card-bg);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.tradition-card:hover {
+  transform: translateY(-4px);
+}
+
+.tradition-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.tradition-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.tradition-card:hover .tradition-image img {
+  transform: scale(1.05);
+}
+
+.tradition-content {
+  padding: 1.5rem;
+}
+
+.tradition-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.tradition-content p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+.festivals-section {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+}
+
+.festivals-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.festivals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.festival-card {
+  background-color: var(--card-bg);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.festival-card:hover {
+  transform: translateY(-4px);
+}
+
+.festival-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.festival-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.festival-card:hover .festival-image img {
+  transform: scale(1.05);
+}
+
+.festival-date {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: var(--text-inverse);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.festival-content {
+  padding: 1.5rem;
+}
+
+.festival-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.festival-content p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.festival-location {
+  color: var(--accent-primary);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.modern-culture-section {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+}
+
+.modern-culture-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.modern-culture-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modern-culture-content p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.culture-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.culture-stat {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+}
+
+.culture-stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  margin-bottom: 0.5rem;
+}
+
+.culture-stat-label {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.preservation-section {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+}
+
+.preservation-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.preservation-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.preservation-content p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.preservation-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.preservation-action {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.preservation-action:hover {
+  transform: translateY(-4px);
+}
+
+.preservation-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-inverse);
+  margin: 0 auto 1.5rem;
+}
+
+.preservation-action h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.preservation-action p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .culture-hero h1 {
+    font-size: 2rem;
+  }
+
+  .heritage-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .traditions-grid,
+  .festivals-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .culture-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .preservation-actions {
+    grid-template-columns: 1fr;
+  }
+}

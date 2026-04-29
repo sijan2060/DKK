@@ -1,0 +1,377 @@
+.journey {
+  padding: 2rem 0;
+}
+
+.journey-hero {
+  text-align: center;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+.journey-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.journey-hero p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.timeline-section {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+}
+
+.timeline-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary));
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.philosophy-section {
+  padding: 8rem 0;
+  text-align: center;
+}
+.philosophy-intro {
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  color: var(--text-secondary);
+}
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.philosophy-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+}
+.philosophy-icon {
+  color: var(--accent-primary);
+  margin-bottom: 1rem;
+}
+
+.impact-section {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+  text-align: center;
+}
+.impact-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.timeline-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.timeline-content {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: var(--card-shadow);
+  width: 45%;
+  position: relative;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  margin-left: auto;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.timeline-year {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content h3 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.timeline-content p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+.milestones-section {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+}
+
+.milestones-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.milestones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.milestone-card {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.milestone-card:hover {
+  transform: translateY(-4px);
+}
+
+.milestone-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-inverse);
+  margin: 0 auto 1.5rem;
+}
+
+.milestone-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.milestone-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.vision-section {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+}
+
+.vision-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.vision-text h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.vision-text p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.vision-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: var(--hover-shadow);
+}
+
+.achievements-section {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+}
+
+.achievements-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.achievement-card {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-4px);
+}
+
+.achievement-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  margin-bottom: 0.5rem;
+}
+
+.achievement-label {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.future-section {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+}
+
+.future-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.future-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.future-content p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.future-goals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.future-goal {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.future-goal:hover {
+  transform: translateY(-4px);
+}
+
+.future-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-inverse);
+  margin: 0 auto 1.5rem;
+}
+
+.future-goal h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.future-goal p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .journey-hero h1 {
+    font-size: 2rem;
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    flex-direction: row !important;
+  }
+
+  .timeline-content {
+    width: calc(100% - 60px);
+    margin-left: 60px !important;
+  }
+
+  .timeline-dot {
+    left: 20px !important;
+  }
+
+  .milestones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vision-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .achievements-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .future-goals {
+    grid-template-columns: 1fr;
+  }
+}

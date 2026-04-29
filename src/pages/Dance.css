@@ -1,0 +1,255 @@
+.dance {
+  padding: 0 0 4rem 0;
+}
+
+.dance-hero {
+  text-align: center;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+.dance-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dance-hero p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.introduction-section {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+}
+
+.intro-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.intro-text h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.intro-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: var(--hover-shadow);
+}
+
+.significance-section {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+}
+
+.dance-features {
+  padding: 8rem 0;
+  text-align: center;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.feature-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+}
+.feature-icon {
+  color: var(--accent-primary);
+  margin-bottom: 1rem;
+}
+
+.significance-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.significance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.significance-card {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.significance-card:hover {
+  transform: translateY(-4px);
+}
+
+.significance-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-inverse);
+  margin: 0 auto 1.5rem;
+}
+
+.significance-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.significance-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.traditional-section {
+  padding: 8rem 0;
+  background-color: var(--bg-primary);
+}
+
+.traditional-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.traditional-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.traditional-card {
+  background-color: var(--card-bg);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.traditional-card:hover {
+  transform: translateY(-4px);
+}
+
+.traditional-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.traditional-content {
+  padding: 1.5rem;
+}
+
+.traditional-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.traditional-content p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+.modern-section {
+  padding: 8rem 0;
+  background-color: var(--bg-secondary);
+}
+
+.modern-section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.modern-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modern-content p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.modern-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.stat-item {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .dance-hero h1 {
+    font-size: 2rem;
+  }
+
+  .intro-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .significance-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .traditional-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modern-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
